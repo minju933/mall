@@ -1,3 +1,33 @@
-body {
-    color:aqua;
+*{
+    box-sizing: border-box;
+}
+.top_bar{
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+   
+}
+.menu > div {
+    padding-left: 50px;
+}
+.right_icon {
+    display: inline-block;
+}
+.right_icon span {
+    width: 30px;
+    height: 70px;
+    line-height: 70px;
 }
