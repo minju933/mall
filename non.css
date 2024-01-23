@@ -32,3 +32,71 @@
     height: 70px;
     line-height: 70px;
 }
+.mid_box1{
+    height:850px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.mid_box2{
+    height:535px;
+}
+/*크림세트------*/
+.cream_set{
+    display: flex;
+    justify-content: center;
+}
+.cream_set > div{
+    padding-left: 10px;
+    text-align: center;
+}
+.text{
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 11pt;
+}
+.text > div{
+    font-size: 11pt;
+    margin-top: 25px;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid rgb(196, 196, 196);
+    height: 50px;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+
+/*footer===========*/
+.footer_all{
+    display: flex;
+    justify-content: left;
+    margin-top: 20%;
+}
+.footer_1,.footer_2,.footer_3,.footer_4{
+    width: 1200px;
+    padding-left: 20px;
+}
+.footer_line1{
+    height: 40px;
+    color:#525252;
+}
+.number{
+    font-weight: 530;
+    font-size: 15pt;
+}
+.time{
+    font-size: 10pt;
+    color:#8a8a8a;
+}
+.footer_all > div{
+    color: #4b4b4b;
+    font-size: 10pt;
+}
