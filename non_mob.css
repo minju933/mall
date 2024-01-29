@@ -37,6 +37,19 @@
     flex-direction: column;
 }
 
+/*======핸드크림 세트=======*/
+.setbox_all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.photo_box img{
+    width:220px;
+    height:220px;
+}
 
 
 
