@@ -39,36 +39,87 @@
 
 /*======핸드크림 세트=======*/
 .setbox_all{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 15px;
+    margin-top: 13px;
+    
+    background-color:#f8f8f8;
+    grid-template-columns:48% 48%;
+    justify-content: center;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    ;
 }
-
+.setbox_all > div {
+    
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.a > div{
+    grid-area: a;  
+}
+.b > div{
+    grid-area: b;  
+}
+.c > div{
+    grid-area: c;  
+}
+.d > div{
+    grid-area: d;  
+}
+.name{
+    font-size: 9pt;
+}
+.cream_ml{
+    font-size: 8pt;
+}
+.price{
+    font-size: 8pt;
+    margin-top: 7px;
+}
+.a,.b{
+    margin-bottom: 50px;
+}
+.c,.d{
+    margin-bottom: 150px ;
+}
 
 
 .photo_box img{
-    width:220px;
-    height:220px;
+   width: 100%;
+}
+/*=====footer======*/
+
+.text1{
+    font-size: 10pt;
+    padding: 15px 5px;
+}
+.call{
+    font-size: 15pt;
+    padding: 0 5px;
+   
+}
+.time{
+    padding: 5px 5px;
+}
+.time > span{
+    font-size: 15px;
+}
+.weekend{
+    font-size:10pt ;
+    color:  rgb(68, 68, 68);
+    padding: 0 5px;
+}
+.footer_5{
+    padding: 25px 5px;
+}
+ .footer_bot{
+    border-bottom: 1px solid #E1E1E1;
+ }
+
+
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
