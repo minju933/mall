@@ -48,3 +48,20 @@
     margin: 10px;
    
 }
+/*====상품 부분=======*/
+.midbox_all{
+    display: flex;
+    padding: 0px;
+    margin: 0 -15px;
+    padding: 10px;
+}
+.small_box img{
+    width:686px;
+    height:686px;
+}
+.small_2 img{
+    border: 0.025rem solid #000;
+    padding: 4px;
+    width: 70px;
+    height:70px;
+}
