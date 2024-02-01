@@ -89,3 +89,117 @@
     padding: 40px 0px 20px;
     font-size: 13px;
 }
+
+/*====옵션 선택 부분=====*/
+.option_box{
+    display: inline-block;
+    gap: 10px;
+    margin-bottom: 15px;  
+}
+.box_1> div{
+    margin: 0 300px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.option-value{
+    display: flex;
+    gap: 10px; 
+    width: 100%;
+    border: 1px solid #EEE;
+    background: #FFF;
+    line-height: 50px;
+    width: 480px;
+    height:50px;
+
+}
+.option-value > span{
+    line-height: 50px;
+    position: absolute;
+    padding: 0 0 0 10px;  
+    font-size: 1rem;
+    margin-top: 15px;
+    margin: 0 430px; 
+}
+.gift_box{
+    margin: 20px 300px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px; 
+    width: 100%;
+    border: 1px solid black;
+    background: #FFF;
+    line-height: 50px;
+    width: 480px;
+    height:50px;
+    justify-content:center
+}
+.add{
+    margin: 0 300px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px; 
+    width: 100%;
+    border: 1px solid black;
+    background: black;
+    line-height: 50px;
+    width: 480px;
+    height:50px;
+    justify-content: center;
+    color:#fff;
+}
+.product-add-info{
+    border-bottom: 1px solid #E1E1E1;
+    width: 480px;
+    margin: 20px 300px;
+}
+.info-container{
+    position: relative;
+    height: auto;
+    margin-top: 50px;
+   
+}
+.set{
+    position: relative;
+    width: 100%;
+    height: auto;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+   
+  
+}
+.product-add-info .set > h1{
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    border-top: 1px solid #E1E1E1;
+    font-size: 13px;
+}
+
+.set > h1 > span{
+    float: right;
+    font-size: 16px;
+    line-height: 40px;
+}
+.set:hover {
+    height: auto;
+}
+.set > h1{
+font-weight: 400;
+line-height: 30px;
+font-size: 12px;
+}
+.set > h1 > p{
+    color:#949494;
+}
+.set > h1> p > span {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+
+
+
+
