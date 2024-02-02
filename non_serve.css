@@ -198,8 +198,29 @@ font-size: 12px;
     font-size: 15px;
     margin-right: 5px;
 }
+/*====Recommend these Items====*/
+.items_all{
+    margin-top: 90px;
+    padding: 0;
 
+}
 
+.title > h1{
+    font-size: 14px;
+    margin: 0 0 30px;
+}
+.item_01 img{
+    width: 454px;
+}
+.item_02 img{
+    width: 454px;
+}
+.item_03 img{
+    width: 454px;
+}
+.products_all{
+   display: flex;
+}
 
 
 
