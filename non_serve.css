@@ -55,6 +55,17 @@
     margin: 0 -15px;
     padding: 10px;
 }
+.small_box{
+    display: flex;
+}
+.small_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-bottom: 15px;
+
+}
 .small_box img{
     width:686px;
     height:686px;
@@ -202,12 +213,14 @@ font-size: 12px;
 .items_all{
     margin-top: 90px;
     padding: 0;
-
 }
+
 
 .title > h1{
     font-size: 14px;
-    margin: 0 0 30px;
+    margin: 0 0 35px;
+    padding: 15px 30px 15px 10px;
+    
 }
 .item_01 img{
     width: 454px;
@@ -218,9 +231,96 @@ font-size: 12px;
 .item_03 img{
     width: 454px;
 }
+.item_01, .item_02, .item_03{
+    padding: 0 8px;
+}
 .products_all{
    display: flex;
 }
+.name_all{
+    position: relative;
+    height: 120px;
+    padding: 10px 0 0;
+    min-height: 120px;
+    font-size: 14px;
+}
+
+ .price{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: right;   
+}
+/*footer======================*/
+.footer_all{
+    display: flex;
+    justify-content: left;
+    margin-top: 2%;
+}
+.footer_1,.footer_2,.footer_3,.footer_4{
+    width: 1200px;
+    padding-left: 20px;
+}
+.footer_line1{
+    height: 40px;
+    color:#525252;
+}
+.number{
+    font-weight: 530;
+    font-size: 15pt;
+    color: black;
+}
+.time{
+    font-size: 10pt;
+    color:#8a8a8a;
+}
+ 
+
+.header_box_all > .header_box_01 {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 100px;
+    
+}
+
+#header_box_01_up {
+    position: relative;
+    clear: both;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+}
+#sec_global {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+}
+select{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 30px;
+}
+option{
+    width:50px;
+    height:30px; 
+}
+
+.footer_all > div{
+    color: #4b4b4b;
+    font-size: 10pt;
+    font-weight: 600;
+}
+.footer_5{
+    padding-left:20px ;
+}
+.bottom_all{
+    background-color:  #f8f8f8;
+}
+
 
 
 
